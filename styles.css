@@ -53,17 +53,18 @@ a {
     display: flex;
     flex-wrap: wrap;
     width: 500px;
-    margin-right: 100px;
+    margin-right: 250px;
 }
 
-.imageplaceholdertext {
+.imageplaceholder {
     align-self: center;
     margin-right: auto;
-    flex-grow: 1;
-    background-color: grey;
-    padding: 100px;
-    text-align: center;
-    color: white;
+    flex: 1;
+}
+
+.mondrianimg {
+    width: 100%;
+    height: 200px;
 }
 
 .awesomespan {
@@ -80,11 +81,4 @@ a {
     border: none;
     text-align: center;
     font-weight: bold;
-}
-
-/* CSS for real images */
-.imageplaceholder {
-    align-self: center;
-    margin-right: auto;
-    max-width: 25%;
 }
