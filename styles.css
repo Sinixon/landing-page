@@ -18,11 +18,14 @@ header,
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
+    padding-right: 300px;
+    padding-left: 300px;
 }
 
 /* Header section */
 header {
-    padding: 16px 300px;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .headerlogo {
@@ -41,12 +44,12 @@ ul {
 
 a {
     text-decoration: none;
-
 }
 
 /* Welcome section */
 .welcomesection {
-    padding: 128px 300px;
+    padding-top: 128px;
+    padding-bottom: 128px;
 }
 
 .welcomediv {
@@ -75,7 +78,7 @@ a {
 
 .signup {
     background-color: #3882F6;
-    padding: 8px 32px;
+    padding: 12px 32px;
     color: white;
     border-radius: 12px;
     border: none;
