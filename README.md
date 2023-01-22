@@ -1,1 +1,1 @@
-# landing-page
+Within this project I have built a landing page using the HTML & CSS skills I have learnt so far during The Odin Project (TOP). 
