@@ -18,9 +18,15 @@ header,
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
+}
+
+header,
+.welcomesection,
+.randomsection {
     padding-right: 300px;
     padding-left: 300px;
 }
+
 
 /* Header section */
 header {
@@ -86,4 +92,33 @@ a {
     border: none;
     text-align: center;
     font-weight: bold;
+}
+
+/* Random section */
+.randomsection {
+    padding-top: 64px;
+}
+
+.random-info-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    padding-bottom: 64px;
+}
+
+.random-info-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.random-info-item {
+    max-width: 200px;
+}
+
+.hopperimg {
+    width: 200px;
+    height: 150px;
+    border-radius: 25px;
+    padding-bottom: 8px;
 }
