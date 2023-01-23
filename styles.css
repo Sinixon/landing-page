@@ -110,6 +110,7 @@ a {
 .random-info-content {
     display: flex;
     justify-content: space-around;
+    padding-bottom: 128px;
 }
 
 .random-info-item {
@@ -121,4 +122,27 @@ a {
     height: 150px;
     border-radius: 25px;
     padding-bottom: 8px;
+}
+
+/* Quote section */
+.quotesection {
+    background-color: #E5E7EB;
+    padding-top: 128px;
+    padding-bottom: 128px;
+    padding-left: 550px;
+    padding-right: 550px;
+}
+
+.quotetext {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 100;
+}
+
+.quoteauthor {
+    color: #1F2937;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
 }
