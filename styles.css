@@ -8,7 +8,8 @@ body {
 
 /* Chained CSS */
 .welcometext,
-a {
+a,
+footer {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -175,4 +176,10 @@ a {
 .call-to-action-subtext,
 .call-to-action-title {
     color: white;
+}
+
+footer {
+    padding: 52px 0;
+    background-color: #1F2937;
+    text-align: center;
 }
