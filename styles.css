@@ -23,8 +23,8 @@ header,
 
 header,
 .welcomesection,
-.randomsection,
-.call-to-action-section {
+#randomsection,
+#call-to-action-section {
     padding-right: 300px;
     padding-left: 300px;
 }
@@ -40,6 +40,10 @@ header {
     color: #F9FAF8;
     font-size: 24px;
     font-weight: bold;
+}
+
+a:link {
+    scroll-behavior: smooth;
 }
 
 ul {
@@ -98,7 +102,7 @@ a {
 }
 
 /* Random section */
-.randomsection {
+#randomsection {
     padding-top: 64px;
 }
 
@@ -128,7 +132,7 @@ a {
 }
 
 /* Quote section */
-.quotesection {
+#quotesection {
     background-color: #E5E7EB;
     padding-top: 128px;
     padding-bottom: 128px;
@@ -151,7 +155,7 @@ a {
 }
 
 /* Call to action section */
-.call-to-action-section {
+#call-to-action-section {
     padding-top: 96px;
     padding-bottom: 96px;
 }
@@ -178,6 +182,7 @@ a {
     color: white;
 }
 
+/* Footer section */
 footer {
     padding: 52px 0;
     background-color: #1F2937;
