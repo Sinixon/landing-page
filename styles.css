@@ -22,7 +22,8 @@ header,
 
 header,
 .welcomesection,
-.randomsection {
+.randomsection,
+.call-to-action-section {
     padding-right: 300px;
     padding-left: 300px;
 }
@@ -92,6 +93,7 @@ a {
     border: none;
     text-align: center;
     font-weight: bold;
+    font-size: 16px;
 }
 
 /* Random section */
@@ -145,4 +147,32 @@ a {
     font-weight: bold;
     display: flex;
     justify-content: flex-end;
+}
+
+/* Call to action section */
+.call-to-action-section {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.call-to-action-content {
+    background-color: #3882F6;
+    padding: 48px 160px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 12px;
+}
+
+.button-cta-section {
+    border: 2px solid white;
+}
+
+.call-to-action-title {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.call-to-action-subtext,
+.call-to-action-title {
+    color: white;
 }
