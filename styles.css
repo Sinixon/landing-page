@@ -40,6 +40,7 @@ header {
     color: #F9FAF8;
     font-size: 24px;
     font-weight: bold;
+    margin-right: 10px;
 }
 
 a:link {
@@ -115,13 +116,19 @@ a {
 }
 
 .random-info-content {
+    text-align: center;
+    padding: 24px;
+    flex-wrap: wrap;
     display: flex;
-    justify-content: space-around;
-    padding-bottom: 128px;
+    justify-content: center;
+    gap: 60px;
 }
 
 .random-info-item {
-    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
 }
 
 .hopperimg {
@@ -138,6 +145,10 @@ a {
     padding-bottom: 128px;
     padding-left: 550px;
     padding-right: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .quotetext {
@@ -158,14 +169,21 @@ a {
 #call-to-action-section {
     padding-top: 96px;
     padding-bottom: 96px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .call-to-action-content {
-    background-color: #3882F6;
-    padding: 48px 160px;
-    display: flex;
+    border-radius: 1em;
+    gap: 50px;
+    color: white;
     justify-content: space-between;
-    border-radius: 12px;
+    flex-direction: row;
+    display: flex;
+    background-color: #3882F6;
+    padding: 24px 96px;
 }
 
 .button-cta-section {
